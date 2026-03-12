@@ -1,0 +1,41 @@
+.dashboard-section {
+  min-height: 100vh;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 10%;
+  gap: 50px;
+}
+
+.dashboard-content {
+  max-width: 500px;
+}
+
+.dashboard-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #ff4d30;
+}
+
+.dashboard-content p {
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #ccc;
+}
+
+.dashboard-content button {
+  padding: 12px 25px;
+  background: #ff4d30;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dashboard-image img {
+  width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(255, 77, 48, 0.4);
+}
